@@ -17,4 +17,7 @@ To run just the commands and print to standard out:
 ```
 python3 -c 'import gcloudips; print(list(gcloudips.get_all_ip_cidrs()))'
 ```
-
+To get the IPs for a specifc netblock only:
+```
+python3 -c 'import gcloudips; print(list(gcloudips.get_netblock_ips_cidr(5)))'
+```
